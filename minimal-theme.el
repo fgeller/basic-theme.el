@@ -55,6 +55,8 @@
    `(diff-file-header ((t (:foreground ,black :background ,white))))
    `(diff-hunk-header ((t (:foreground ,black :background ,white))))
 
+   `(eshell-prompt ((t (:foreground ,gray4 :background nil))))
+
    `(helm-candidate-number ((t (:foreground ,gray6 :background ,gray6))))
    `(helm-header ((t (:foreground ,gray3 :background ,white :box nil))))
    `(helm-selection ((t (:foreground ,black :background ,gray6 :underline nil))))
@@ -89,8 +91,6 @@
    `(magit-key-mode-button-face ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-header-face ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-switch-face ((t (:foreground ,blue :background nil))))
-
-   `(eshell-prompt ((t (:foreground ,gray4 :background nil))))
    ))
 
 (and load-file-name
