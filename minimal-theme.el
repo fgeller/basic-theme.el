@@ -33,12 +33,12 @@
    `(default ((t (:foreground ,black :background ,white))))
    `(fringe ((t (:foreground ,gray3 :background ,gray6))))
    `(hi-yellow ((t (:foreground ,red :background ,white))))
-   `(isearch ((t (:foreground nil :background ,blue))))  
+   `(isearch ((t (:foreground nil :background ,blue))))
    `(isearch-fail ((t (:foreground nil :background ,orange))))
    `(lazy-highlight ((t (:foreground nil :background ,blue))))
    `(linum  ((t (:foreground ,gray3 :background ,gray6))))
    `(minibuffer-prompt ((t (:foreground ,red :background nil))))
-   `(mode-line ((t (:foreground ,gray3 :background ,gray6))))
+   `(mode-line ((t (:foreground ,gray3 :background ,gray6 :box nil))))
    `(mode-line-buffer-id ((t (:weight normal))))
    `(mode-line-inactive ((t (:foreground ,gray3 :background ,gray6))))
    `(region ((t (:foreground nil :background ,yellow))))
@@ -50,3 +50,10 @@
    `(helm-source-header ((t (:foreground ,gray3 :background ,blue :underline nil))))
    ))
 
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
+
+(provide-theme 'minimal)
