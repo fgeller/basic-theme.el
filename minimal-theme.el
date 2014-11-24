@@ -56,9 +56,14 @@
    `(diff-hunk-header ((t (:foreground ,black :background ,white))))
 
    `(helm-candidate-number ((t (:foreground ,gray3 :background ,gray6))))
-   `(helm-header ((t (:foreground ,gray3 :background ,gray6 :box nil))))
-   `(helm-selection ((t (:foreground nil :background ,yellow :underline nil))))
-   `(helm-source-header ((t (:foreground ,gray3 :background ,blue :underline nil))))
+   `(helm-header ((t (:foreground ,gray3 :background ,white :box nil))))
+   `(helm-selection ((t (:foreground nil :background ,gray6 :underline nil))))
+   `(helm-source-header ((t (:foreground ,gray3 :background ,white :underline nil))))
+   `(helm-buffer-file ((t (:foreground ,black :background ,white :underline nil :italic nil))))
+   `(helm-buffer-directory ((t (:foreground ,black :background ,white :underline nil :italic nil))))
+   `(helm-buffer-process ((t (:foreground ,black :background ,white :underline nil :italic nil))))
+   `(helm-buffer-size ((t (:foreground ,black :background ,white :underline nil :italic nil))))
+   `(helm-buffer-not-saved ((t (:foreground ,black :background ,white :underline nil :italic nil))))
 
    `(magit-item-highlight ((t (:foreground nil :background nil))))
    `(magit-section-title ((t (:foreground nil :background nil))))
