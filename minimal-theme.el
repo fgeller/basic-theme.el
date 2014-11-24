@@ -89,6 +89,8 @@
    `(magit-key-mode-button-face ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-header-face ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-switch-face ((t (:foreground ,blue :background nil))))
+
+   `(eshell-prompt ((t (:foreground ,gray4 :background nil))))
    ))
 
 (and load-file-name
