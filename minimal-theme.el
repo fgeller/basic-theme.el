@@ -45,6 +45,16 @@
    `(trailing-whitespace ((t (:foreground nil :background ,red))))
    `(button ((t (:foreground ,blue :underline nil))))
 
+   `(diff-added ((t (:foreground ,green :background ,white))))
+   `(diff-removed ((t (:foreground ,red :background ,white))))
+   `(diff-context ((t (:foreground ,gray3 :background ,white))))
+   `(diff-refine-added ((t :inherit diff-added :background ,gray2)))
+   `(diff-refine-change ((t :inherit diff-changed :background ,gray2)))
+   `(diff-refine-removed ((t :inherit diff-removed :background ,gray2)))
+   `(diff-header ((t (:foreground ,black :background ,white))))
+   `(diff-file-header ((t (:foreground ,black :background ,white))))
+   `(diff-hunk-header ((t (:foreground ,black :background ,white))))
+
    `(helm-candidate-number ((t (:foreground ,gray3 :background ,gray6))))
    `(helm-header ((t (:foreground ,gray3 :background ,gray6 :box nil))))
    `(helm-selection ((t (:foreground nil :background ,yellow :underline nil))))
