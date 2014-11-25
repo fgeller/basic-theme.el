@@ -56,7 +56,11 @@
    `(diff-file-header ((t (:foreground ,black :background ,white))))
    `(diff-hunk-header ((t (:foreground ,black :background ,white))))
 
+   `(eldoc-highlight-function-argument ((t (:weight normal :background ,gray5))))
+
    `(eshell-prompt ((t (:foreground ,gray4 :background nil))))
+
+   `(font-lock-function-name-face ((t (:foreground ,red :background nil))))
 
    `(helm-candidate-number ((t (:foreground ,gray6 :background ,gray6))))
    `(helm-header ((t (:foreground ,gray3 :background ,white :box nil))))
