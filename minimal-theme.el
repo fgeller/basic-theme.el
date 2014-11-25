@@ -86,6 +86,7 @@
    `(helm-visible-mark ((t (:foreground ,black :background ,orange :underline nil :italic nil))))
    `(helm-separator ((t (:foreground ,black :background ,orange :underline nil :italic nil))))
    `(helm-prefarg ((t (:foreground ,red :background ,white :underline nil :italic nil))))
+   `(helm-M-x-key ((t (:foreground ,blue :background ,white :underline nil :italic nil))))
 
    `(magit-item-highlight ((t (:foreground nil :background nil))))
    `(magit-section-title ((t (:foreground nil :background nil))))
