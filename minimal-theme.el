@@ -31,6 +31,7 @@
   (custom-theme-set-faces
    'minimal
    `(default ((t (:foreground ,black :background ,white))))
+   `(cursor ((t (:foreground nil :background ,red))))
    `(fringe ((t (:foreground ,gray3 :background ,gray6))))
    `(hi-yellow ((t (:foreground ,red :background ,white))))
    `(isearch ((t (:foreground nil :background ,gray5))))
@@ -43,7 +44,7 @@
    `(mode-line-inactive ((t (:foreground ,gray6 :background ,gray6))))
    `(region ((t (:foreground nil :background ,yellow))))
    `(trailing-whitespace ((t (:foreground nil :background ,red))))
-   `(button ((t (:foreground ,blue :underline nil))))
+   `(button ((t (:foreground ,blue :underline nil :weight normal))))
 
    `(diff-added ((t (:foreground ,green :background ,white))))
    `(diff-removed ((t (:foreground ,red :background ,white))))
@@ -91,6 +92,7 @@
    `(magit-key-mode-button-face ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-header-face ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-switch-face ((t (:foreground ,blue :background nil))))
+   `(magit-tag ((t (:foreground ,gray4 :background nil))))
    ))
 
 (and load-file-name
