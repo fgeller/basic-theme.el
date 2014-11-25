@@ -97,6 +97,9 @@
    `(magit-key-mode-header-face ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-switch-face ((t (:foreground ,blue :background nil))))
    `(magit-tag ((t (:foreground ,gray4 :background nil))))
+
+   `(show-paren-match ((t (:foreground nil :background ,gray5))))
+   `(show-paren-mismatch ((t (:foreground nil :background ,red))))
    ))
 
 (provide-theme 'minimal)
