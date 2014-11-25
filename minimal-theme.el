@@ -34,9 +34,9 @@
    `(cursor ((t (:foreground nil :background ,red))))
    `(fringe ((t (:foreground ,gray3 :background ,gray6))))
    `(hi-yellow ((t (:foreground ,red :background ,white))))
-   `(isearch ((t (:foreground nil :background ,gray5))))
+   `(isearch ((t (:foreground nil :background ,gray6))))
    `(isearch-fail ((t (:foreground nil :background ,orange))))
-   `(lazy-highlight ((t (:foreground nil :background ,gray5))))
+   `(lazy-highlight ((t (:foreground nil :background ,gray6))))
    `(linum  ((t (:foreground ,gray3 :background ,gray6))))
    `(minibuffer-prompt ((t (:foreground ,red :background nil))))
    `(mode-line ((t (:foreground ,gray6 :background ,gray6 :box nil))))
@@ -56,7 +56,7 @@
    `(diff-file-header ((t (:foreground ,black :background ,white))))
    `(diff-hunk-header ((t (:foreground ,black :background ,white))))
 
-   `(eldoc-highlight-function-argument ((t (:weight normal :background ,gray5))))
+   `(eldoc-highlight-function-argument ((t (:weight normal :background ,gray6))))
 
    `(eshell-prompt ((t (:foreground ,gray4 :background nil))))
 
@@ -98,7 +98,7 @@
    `(magit-key-mode-switch-face ((t (:foreground ,blue :background nil))))
    `(magit-tag ((t (:foreground ,gray4 :background nil))))
 
-   `(show-paren-match ((t (:foreground nil :background ,gray5))))
+   `(show-paren-match ((t (:foreground nil :background ,gray6))))
    `(show-paren-mismatch ((t (:foreground nil :background ,red))))
    ))
 
