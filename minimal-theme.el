@@ -46,6 +46,10 @@
    `(trailing-whitespace ((t (:foreground nil :background ,red))))
    `(button ((t (:foreground ,blue :underline nil :weight normal))))
 
+   `(anzu-mode-line ((t (:inherit mode-line))))
+   `(anzu-replace-highlight ((t (:foreground nil :background ,gray6))))
+   `(anzu-replace-to ((t (:foreground ,red :background ,gray6))))
+
    `(diff-added ((t (:foreground ,green :background ,white))))
    `(diff-removed ((t (:foreground ,red :background ,white))))
    `(diff-context ((t (:foreground ,gray3 :background ,white))))
@@ -100,6 +104,7 @@
 
    `(show-paren-match ((t (:foreground nil :background ,gray6))))
    `(show-paren-mismatch ((t (:foreground nil :background ,red))))
+
    ))
 
 (provide-theme 'minimal)
