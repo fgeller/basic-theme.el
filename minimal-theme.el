@@ -84,7 +84,7 @@
    `(helm-history-remote ((t (:foreground ,black :background ,orange :underline nil :italic nil))))
    `(helm-history-deleted ((t (:foreground ,black :background ,red :underline nil :italic nil))))
    `(helm-visible-mark ((t (:foreground ,black :background ,orange :underline nil :italic nil))))
-   `(helm-separator ((t (:foreground ,black :background ,orange :underline nil :italic nil))))
+   `(helm-separator ((t (:foreground ,gray6 :background ,nil :underline nil :italic nil))))
    `(helm-prefarg ((t (:foreground ,red :background ,white :underline nil :italic nil))))
    `(helm-M-x-key ((t (:foreground ,blue :background ,white :underline nil :italic nil))))
 
