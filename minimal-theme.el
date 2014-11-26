@@ -37,6 +37,7 @@
    `(isearch ((t (:foreground nil :background ,gray6))))
    `(isearch-fail ((t (:foreground nil :background ,orange))))
    `(lazy-highlight ((t (:foreground nil :background ,gray6))))
+   `(secondary-selection ((t (:foreground nil :background ,gray6))))
    `(linum  ((t (:foreground ,gray3 :background ,gray6))))
    `(minibuffer-prompt ((t (:foreground ,red :background nil))))
    `(mode-line ((t (:foreground ,gray6 :background ,gray6 :box nil))))
