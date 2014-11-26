@@ -103,6 +103,8 @@
    `(magit-key-mode-switch-face ((t (:foreground ,blue :background nil))))
    `(magit-tag ((t (:foreground ,gray4 :background nil))))
 
+   `(rng-error ((t (:foreground nil :background ,orange))))
+
    `(show-paren-match ((t (:foreground nil :background ,gray6))))
    `(show-paren-mismatch ((t (:foreground nil :background ,red))))
 
