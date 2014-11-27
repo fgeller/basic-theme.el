@@ -32,6 +32,7 @@
    'minimal
    `(default ((t (:foreground ,black :background ,white))))
    `(cursor ((t (:foreground nil :background ,red))))
+   `(compilation-mode-line-exit ((t (:foreground ,gray6 :background ,gray6))))
    `(fringe ((t (:foreground ,gray3 :background ,gray6))))
    `(hi-yellow ((t (:foreground ,red :background ,white))))
    `(isearch ((t (:foreground nil :background ,gray6))))
