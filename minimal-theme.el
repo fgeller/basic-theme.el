@@ -68,10 +68,11 @@
 
    `(font-lock-function-name-face ((t (:foreground ,red :background nil))))
 
+   `(helm-action ((t (:foreground ,black :background ,white :underline nil))))
    `(helm-candidate-number ((t (:foreground ,gray6 :background ,gray6))))
-   `(helm-header ((t (:foreground ,gray3 :background ,white :box nil))))
+   `(helm-header ((t (:inherit mode-line))))
    `(helm-selection ((t (:foreground ,black :background ,gray6 :underline nil))))
-   `(helm-source-header ((t (:foreground ,gray3 :background ,white :underline nil))))
+   `(helm-source-header ((t (:foreground ,black :background ,white :underline nil))))
    `(helm-buffer-file ((t (:foreground ,black :background ,white :underline nil :italic nil))))
    `(helm-buffer-directory ((t (:foreground ,black :background ,white :underline nil :italic nil))))
    `(helm-buffer-process ((t (:foreground ,black :background ,white :underline nil :italic nil))))
@@ -85,7 +86,7 @@
    `(helm-ff-symlink ((t (:foreground ,black :background ,white :underline nil :italic nil))))
    `(helm-history-remote ((t (:foreground ,black :background ,orange :underline nil :italic nil))))
    `(helm-history-deleted ((t (:foreground ,black :background ,red :underline nil :italic nil))))
-   `(helm-visible-mark ((t (:foreground ,black :background ,orange :underline nil :italic nil))))
+   `(helm-visible-mark ((t (:foreground ,black :background ,yellow :underline nil :italic nil))))
    `(helm-separator ((t (:foreground ,gray6 :background ,nil :underline nil :italic nil))))
    `(helm-prefarg ((t (:foreground ,red :background ,white :underline nil :italic nil))))
    `(helm-M-x-key ((t (:foreground ,blue :background ,white :underline nil :italic nil))))
