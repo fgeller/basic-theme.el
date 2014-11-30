@@ -104,7 +104,7 @@
    `(magit-log-head-label-tags ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-button-face ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-header-face ((t (:foreground ,gray4 :background nil))))
-   `(magit-key-mode-switch-face ((t (:foreground ,blue :background nil))))
+   `(magit-key-mode-switch-face ((t (:foreground ,green :background nil))))
    `(magit-tag ((t (:foreground ,gray4 :background nil))))
 
    `(rng-error ((t (:foreground nil :background ,orange))))
