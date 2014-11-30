@@ -112,6 +112,8 @@
    `(show-paren-match ((t (:foreground nil :background ,gray6))))
    `(show-paren-mismatch ((t (:foreground nil :background ,red))))
 
+   `(wgrep-face ((t (:foreground ,green :background ,nil))))
+   `(wgrep-done-face ((t (:foreground ,black :background ,nil))))
    ))
 
 (provide-theme 'minimal)
