@@ -129,4 +129,24 @@
    `(wgrep-done-face ((t (:foreground ,black :background ,nil))))
    ))
 
+(base16/with-color-variables
+  (custom-theme-set-variables
+   'minimal
+   `(vc-annotate-very-old-color ,gray3)
+   `(vc-annotate-background ,white)
+   `(vc-annotate-color-map
+     '((20 . ,red)
+       (50 . ,orange)
+       (80 . ,yellow)
+       (110 . ,green)
+       (140 . ,turquoise)
+       (170 . ,blue)
+       (200 . ,purple)
+       (230 . ,brown)
+       (260 . ,black)
+       (290 . ,gray1)
+       (320 . ,gray2)
+       (350 . ,gray3)))
+   ))
+
 (provide-theme 'minimal)
