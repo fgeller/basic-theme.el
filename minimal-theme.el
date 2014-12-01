@@ -122,8 +122,8 @@
 
    `(rng-error ((t (:foreground nil :background ,orange))))
 
-   `(show-paren-match ((t (:foreground nil :background ,gray6))))
-   `(show-paren-mismatch ((t (:foreground nil :background ,red))))
+   `(show-paren-match ((t (:foreground nil :background ,green))))
+   `(show-paren-mismatch ((t (:foreground nil :background ,orange))))
 
    `(wgrep-face ((t (:foreground ,green :background ,nil))))
    `(wgrep-done-face ((t (:foreground ,black :background ,nil))))
