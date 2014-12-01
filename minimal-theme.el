@@ -97,6 +97,8 @@
    `(helm-M-x-key ((t (:foreground ,blue :background ,white :underline nil :italic nil))))
 
    `(magit-item-highlight ((t (:foreground nil :background nil))))
+   `(magit-process-ok ((t (:foreground nil :background nil))))
+   `(magit-process-ng ((t (:foreground nil :background ,orange))))
    `(magit-section-title ((t (:foreground nil :background nil))))
    `(magit-branch ((t (:foreground nil :background nil))))
    `(magit-log-sha1 ((t (:foreground ,gray4 :background nil))))
