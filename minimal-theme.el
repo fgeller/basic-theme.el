@@ -49,6 +49,9 @@
    `(secondary-selection ((t (:foreground nil :background ,gray6))))
    `(trailing-whitespace ((t (:foreground nil :background ,red))))
 
+   `(ace-jump-face-background ((t (:foreground ,gray4 :background nil))))
+   `(ace-jump-face-foreground ((t (:foreground ,red :background nil))))
+
    `(anzu-mode-line ((t (:inherit mode-line))))
    `(anzu-replace-highlight ((t (:foreground nil :background ,gray6))))
    `(anzu-replace-to ((t (:foreground ,red :background ,gray6))))
