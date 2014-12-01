@@ -114,6 +114,7 @@
    `(magit-tag ((t (:foreground ,gray4 :background nil))))
 
    `(org-done ((t (:foreground ,black :background ,white))))
+   `(org-todo ((t (:foreground ,black :background ,white))))
 
    `(rng-error ((t (:foreground nil :background ,orange))))
 
