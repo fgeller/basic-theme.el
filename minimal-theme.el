@@ -53,6 +53,10 @@
    `(anzu-replace-highlight ((t (:foreground nil :background ,gray6))))
    `(anzu-replace-to ((t (:foreground ,red :background ,gray6))))
 
+   `(custom-face-tag ((t (:foreground nil :background nil))))
+   `(custom-visibility ((t (:foreground ,blue :background nil))))
+   `(custom-link ((t (:foreground ,blue :background nil))))
+
    `(diff-added ((t (:foreground ,green :background ,white))))
    `(diff-removed ((t (:foreground ,red :background ,white))))
    `(diff-context ((t (:foreground ,black :background ,white))))
