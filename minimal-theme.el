@@ -57,15 +57,15 @@
    `(custom-visibility ((t (:foreground ,blue :background nil))))
    `(custom-link ((t (:foreground ,blue :background nil))))
 
-   `(diff-added ((t (:foreground ,green :background ,white))))
-   `(diff-removed ((t (:foreground ,red :background ,white))))
-   `(diff-context ((t (:foreground ,black :background ,white))))
+   `(diff-added ((t (:foreground ,green :background nil))))
+   `(diff-removed ((t (:foreground ,red :background nil))))
+   `(diff-context ((t (:foreground ,black :background nil))))
    `(diff-refine-added ((t :inherit diff-added :background ,gray2)))
    `(diff-refine-change ((t :inherit diff-changed :background ,gray2)))
    `(diff-refine-removed ((t :inherit diff-removed :background ,gray2)))
-   `(diff-header ((t (:foreground ,black :background ,white))))
-   `(diff-file-header ((t (:foreground ,black :background ,white))))
-   `(diff-hunk-header ((t (:foreground ,black :background ,white))))
+   `(diff-header ((t (:foreground ,black :background nil))))
+   `(diff-file-header ((t (:foreground ,black :background nil))))
+   `(diff-hunk-header ((t (:foreground ,black :background nil))))
 
    `(eldoc-highlight-function-argument ((t (:weight normal :background ,gray6))))
 
