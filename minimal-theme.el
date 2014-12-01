@@ -114,6 +114,7 @@
    `(magit-key-mode-button-face ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-header-face ((t (:foreground ,gray4 :background nil))))
    `(magit-key-mode-switch-face ((t (:foreground ,green :background nil))))
+   `(magit-diff-merge-current ((t (:foreground ,black :background nil))))
    `(magit-tag ((t (:foreground ,gray4 :background nil))))
 
    `(org-done ((t (:foreground ,black :background ,white))))
