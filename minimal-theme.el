@@ -45,7 +45,7 @@
    `(mode-line ((t (:foreground ,gray6 :background ,gray6 :box nil))))
    `(mode-line-buffer-id ((t (:weight normal))))
    `(mode-line-inactive ((t (:inherit mode-line))))
-   `(region ((t (:foreground nil :background ,yellow))))
+   `(region ((t (:foreground nil :background ,green))))
    `(secondary-selection ((t (:foreground nil :background ,gray6))))
    `(trailing-whitespace ((t (:foreground nil :background ,red))))
 
