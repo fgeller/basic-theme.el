@@ -132,6 +132,16 @@
 (base16/with-color-variables
   (custom-theme-set-variables
    'minimal
+   `(ansi-color-names-vector [
+			      (,black . ,gray1)
+			      (,red . ,orange)
+			      (,green . ,gray2)
+			      (,yellow . ,gray2)
+			      (,blue . ,gray3)
+			      (,purple . ,gray4)
+			      (,turquoise . ,gray5)
+			      (,white . ,gray6)
+			      ])
    `(vc-annotate-very-old-color ,gray3)
    `(vc-annotate-background ,white)
    `(vc-annotate-color-map
