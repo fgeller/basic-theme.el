@@ -1,0 +1,50 @@
+* minimal
+
+  Minimalistic light color theme for GNU Emacs.
+
+** Screenshots
+
+   Empty scratch buffer:
+
+   [[https://raw.githubusercontent.com/fgeller/minimal.el/master/scratch.png][file:https://raw.githubusercontent.com/fgeller/minimal.el/master/scratch.png]]
+
+   Emacs Lisp buffer:
+
+   [[https://raw.githubusercontent.com/fgeller/minimal.el/master/emacs-lisp.png][file:https://raw.githubusercontent.com/fgeller/minimal.el/master/emacs-lisp.png]]
+
+** Details
+
+   The theme attempts to reduce the usage of colors to a minimum based on my
+   personal preferences. It's not fully monochrome, for example diffs are still
+   differentiated via green and color is used to highlight active regions or
+   search relevant sections. The theme assumes no font-lock,
+   i.e. =(global-font-lock-mode 0)=, so there is very little customization for
+   syntax aware faces.
+
+   Uses [[https://github.com/chriskempson/base16][base16]] colors.
+
+   By default the =mode-line= faces are using the same colors for fore- and
+   background to reduce the noise. I use a little helper to toggle the color and
+   face height of relevant faces similar to the following:
+
+   #+begin_src emacs-lisp
+     (defun mode-line-visual-toggle ()
+       (interactive)
+       (let ((faces-to-toggle '(mode-line mode-line-inactive))
+             (invisible-color "#e8e8e8")
+             (visible-color "#a1b56c"))
+         (cond ((string= visible-color (face-attribute 'mode-line :background))
+                (mapcar (lambda (face)
+                          (set-face-background face invisible-color)
+                          (set-face-attribute face nil :height 20))
+                        faces-to-toggle))
+               (t
+                (mapcar (lambda (face)
+                          (set-face-background face visible-color)
+                          (set-face-attribute face nil :height (face-attribute 'default :height)))
+                        faces-to-toggle)))))
+   #+end_src
+
+   For example:
+
+   [[https://raw.githubusercontent.com/fgeller/minimal.el/master/mode-line.png][file:https://raw.githubusercontent.com/fgeller/minimal.el/master/mode-line.png]]
