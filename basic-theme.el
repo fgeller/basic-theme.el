@@ -39,7 +39,7 @@
 
 (deftheme basic "Minimalistic theme based on base16 colors.")
 
-(defvar base16-colors-alist
+(defvar basic-colors-alist
   '(("black" . "#181818")
     ("gray1" . "#282828")
     ("gray2" . "#383838")
@@ -57,16 +57,16 @@
     ("purple" . "#ba8baf")
     ("brown" . "#a16046")))
 
-(defmacro base16/with-color-variables (&rest body)
+(defmacro basic-with-color-variables (&rest body)
   (declare (indent 0))
   `(let ((class '((class color) (min-colors 89)))
          ,@(mapcar (lambda (cons)
                      (list (intern (car cons)) (cdr cons)))
-                   base16-colors-alist))
+                   basic-colors-alist))
      ,@body))
 
 ;;; Theme Faces
-(base16/with-color-variables
+(basic-with-color-variables
   (custom-theme-set-faces
    'basic
    `(button ((t (:foreground ,blue :underline nil :weight normal))))
@@ -168,7 +168,7 @@
    `(wgrep-done-face ((t (:foreground ,black :background nil))))
    ))
 
-(base16/with-color-variables
+(basic-with-color-variables
   (custom-theme-set-variables
    'basic
    `(ansi-color-names-vector [
