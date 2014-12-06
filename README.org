@@ -19,11 +19,11 @@
 ** Details
 
    The theme attempts to reduce the usage of colors to a minimum based on my
-   personal preferences. The actual colors are from the
-   [[https://github.com/chriskempson/base16][base16]] set. It's not fully
-   monochrome, for example diffs and active regions are distinguished via
-   colors. The theme assumes no font-lock, i.e. =(global-font-lock-mode 0)=, so
-   there is very little customization for syntax aware faces.
+   personal preferences. It's not fully monochrome, for example diffs and active
+   regions are distinguished via colors. The theme assumes no font-lock,
+   i.e. =(global-font-lock-mode 0)=, so there is very little customization for
+   syntax aware faces. The used colors are from the
+   [[https://github.com/chriskempson/base16][base16]] set.
 
    By default the =mode-line= faces are using the same colors for fore- and
    background to reduce the noise. I use a little helper to toggle the color and
