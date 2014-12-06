@@ -1,4 +1,4 @@
-* minimal
+* basic
 
   Minimalistic light color theme for GNU Emacs.
 
@@ -6,15 +6,15 @@
 
    Scratch buffer:
 
-   [[https://raw.githubusercontent.com/fgeller/minimal.el/master/scratch.png][file:https://raw.githubusercontent.com/fgeller/minimal.el/master/scratch.png]]
+   [[https://raw.githubusercontent.com/fgeller/basic.el/master/scratch.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/scratch.png]]
 
    Emacs Lisp buffer:
 
-   [[https://raw.githubusercontent.com/fgeller/minimal.el/master/emacs-lisp.png][file:https://raw.githubusercontent.com/fgeller/minimal.el/master/emacs-lisp.png]]
+   [[https://raw.githubusercontent.com/fgeller/basic.el/master/emacs-lisp.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/emacs-lisp.png]]
 
    Magit buffers:
 
-   [[https://raw.githubusercontent.com/fgeller/minimal.el/master/magit.png][file:https://raw.githubusercontent.com/fgeller/minimal.el/master/magit.png]]
+   [[https://raw.githubusercontent.com/fgeller/basic.el/master/magit.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/magit.png]]
 
 ** Details
 
@@ -49,4 +49,5 @@
 
    For example:
 
-   [[https://raw.githubusercontent.com/fgeller/minimal.el/master/mode-line.png][file:https://raw.githubusercontent.com/fgeller/minimal.el/master/mode-line.png]]
+   [[https://raw.githubusercontent.com/fgeller/basic.el/master/mode-line.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/mode-line.png]]
+

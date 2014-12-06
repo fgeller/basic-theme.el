@@ -1,4 +1,4 @@
-(deftheme minimal "Minimalistic theme based on base16 colors.")
+(deftheme basic "Minimalistic theme based on base16 colors.")
 
 (defvar base16-colors-alist
   '(("black" . "#181818")
@@ -29,7 +29,7 @@
 ;;; Theme Faces
 (base16/with-color-variables
   (custom-theme-set-faces
-   'minimal
+   'basic
    `(button ((t (:foreground ,blue :underline nil :weight normal))))
    `(compilation-mode-line-exit ((t (:foreground ,gray6 :background ,gray6))))
    `(cursor ((t (:foreground nil :background ,red))))
@@ -131,7 +131,7 @@
 
 (base16/with-color-variables
   (custom-theme-set-variables
-   'minimal
+   'basic
    `(ansi-color-names-vector [
 			      (,black . ,gray1)
 			      (,red . ,orange)
@@ -159,4 +159,4 @@
        (350 . ,gray3)))
    ))
 
-(provide-theme 'minimal)
+(provide-theme 'basic)
