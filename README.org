@@ -6,15 +6,15 @@
 
    Scratch buffer:
 
-   [[https://raw.githubusercontent.com/fgeller/basic.el/master/scratch.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/scratch.png]]
+   [[https://raw.githubusercontent.com/fgeller/basic.el/master/screenshots/scratch.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/screenshots/scratch.png]]
 
    Emacs Lisp buffer:
 
-   [[https://raw.githubusercontent.com/fgeller/basic.el/master/emacs-lisp.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/emacs-lisp.png]]
+   [[https://raw.githubusercontent.com/fgeller/basic.el/master/screenshots/emacs-lisp.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/screenshots/emacs-lisp.png]]
 
    Magit buffers:
 
-   [[https://raw.githubusercontent.com/fgeller/basic.el/master/magit.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/magit.png]]
+   [[https://raw.githubusercontent.com/fgeller/basic.el/master/screenshots/magit.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/screenshots/magit.png]]
 
 ** Details
 
@@ -49,5 +49,5 @@
 
    For example:
 
-   [[https://raw.githubusercontent.com/fgeller/basic.el/master/mode-line.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/mode-line.png]]
+   [[https://raw.githubusercontent.com/fgeller/basic.el/master/screenshots/mode-line.png][file:https://raw.githubusercontent.com/fgeller/basic.el/master/screenshots/mode-line.png]]
 
