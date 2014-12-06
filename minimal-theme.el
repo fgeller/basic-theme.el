@@ -41,6 +41,7 @@
    `(isearch-fail ((t (:foreground nil :background ,orange))))
    `(lazy-highlight ((t (:foreground nil :background ,gray6))))
    `(linum  ((t (:foreground ,gray4 :background ,white))))
+   `(match ((t (:foreground nil :background ,gray6))))
    `(minibuffer-prompt ((t (:foreground ,gray4 :background nil))))
    `(mode-line ((t (:foreground ,gray6 :background ,gray6 :box nil))))
    `(mode-line-buffer-id ((t (:weight normal))))
