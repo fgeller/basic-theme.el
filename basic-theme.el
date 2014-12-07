@@ -1,10 +1,11 @@
-;;; basic-theme.el --- Minimalistic light color theme for GNU Emacs.
+;;; basic-theme.el --- Minimalistic light color theme
 
 ;; Copyright (c) 2014 Felix Geller
 
 ;; Author: Felix Geller <fgeller@gmail.com>
 ;; Keywords: fingers modal editing workman
 ;; URL: http://github.com/fgeller/basic-theme.el
+;; Package-Requires: ((emacs "24"))
 
 ;; This file is not part of GNU Emacs.
 
