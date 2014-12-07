@@ -140,6 +140,7 @@
    `(helm-prefarg ((t (:foreground ,red :background ,white :underline nil :italic nil))))
    `(helm-M-x-key ((t (:foreground ,blue :background ,white :underline nil :italic nil))))
 
+   `(magit-section-title ((t (:inherit default))))
    `(magit-item-highlight ((t (:foreground nil :background nil))))
    `(magit-process-ok ((t (:foreground nil :background nil))))
    `(magit-process-ng ((t (:foreground nil :background ,orange))))
