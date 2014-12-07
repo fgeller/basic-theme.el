@@ -55,7 +55,8 @@
     ("turquoise" . "#86c1b9")
     ("blue" . "#7cafc2")
     ("purple" . "#ba8baf")
-    ("brown" . "#a16046")))
+    ("brown" . "#a16046"))
+  "List of base16 colors.")
 
 (defmacro basic-with-color-variables (&rest body)
   (declare (indent 0))
@@ -200,4 +201,8 @@
 
 (provide-theme 'basic)
 
+;; Local Variables:
+;; no-byte-compile: t
+;; indent-tabs-mode: nil
+;; End:
 ;;; basic-theme.el ends here
