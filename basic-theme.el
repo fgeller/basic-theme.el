@@ -122,7 +122,7 @@
    `(helm-candidate-number ((t (:foreground ,gray6 :background ,gray6))))
    `(helm-header ((t (:inherit mode-line))))
    `(helm-selection ((t (:foreground ,black :background ,gray6 :underline nil))))
-   `(helm-source-header ((t (:inherit default :foreground ,black :background ,white :underline nil :weight normal :family ,(face-attribute 'default :family)))))
+   `(helm-source-header ((t (:inherit default :foreground ,black :background ,white :underline nil :weight normal :family ,(face-attribute 'default :family) :height ,(face-attribute 'default :height)))))
    `(helm-buffer-file ((t (:foreground ,black :background ,white :underline nil :italic nil))))
    `(helm-buffer-directory ((t (:foreground ,black :background ,white :underline nil :italic nil))))
    `(helm-buffer-process ((t (:foreground ,black :background ,white :underline nil :italic nil))))
