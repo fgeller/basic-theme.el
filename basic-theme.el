@@ -114,7 +114,9 @@
 
    `(eldoc-highlight-function-argument ((t (:weight normal :background ,gray6))))
 
-   `(eshell-prompt ((t (:foreground ,gray4 :background nil))))
+   `(eshell-prompt ((t (:foreground ,gray4 :background nil :weight normal))))
+   `(eshell-ls-directory ((t (:foreground nil :background nil :weight normal))))
+   `(eshell-ls-executable ((t (:foreground nil :background nil :weight normal))))
 
    `(font-lock-function-name-face ((t (:foreground ,red :background nil))))
 
