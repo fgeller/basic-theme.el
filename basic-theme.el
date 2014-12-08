@@ -159,8 +159,8 @@
    `(magit-diff-merge-current ((t (:foreground ,black :background nil))))
    `(magit-tag ((t (:foreground ,black :background nil))))
 
-   `(org-done ((t (:foreground ,black :background ,white))))
-   `(org-todo ((t (:foreground ,black :background ,white))))
+   `(org-done ((t (:foreground ,black :background ,white :weight normal))))
+   `(org-todo ((t (:foreground ,black :background ,white :weight normal))))
 
    `(rng-error ((t (:foreground nil :background ,orange))))
 
