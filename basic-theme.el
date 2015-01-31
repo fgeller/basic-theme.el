@@ -282,6 +282,9 @@
    `(show-paren-match ((t (:foreground nil :background ,green))))
    `(show-paren-mismatch ((t (:foreground nil :background ,orange))))
 
+   `(shr-link ((t (:foreground ,blue :background nil :weight normal :underline nil))))
+   `(shr-strike-through ((t (:foreground nil :background nil :weight normal :strike-through t))))
+
    `(wgrep-face ((t (:foreground ,green :background nil))))
    `(wgrep-done-face ((t (:foreground ,black :background nil))))
    ))
