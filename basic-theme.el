@@ -157,6 +157,21 @@
    `(helm-prefarg ((t (:foreground ,red :background ,white :underline nil :italic nil))))
    `(helm-M-x-key ((t (:foreground ,blue :background ,white :underline nil :italic nil))))
 
+   ;; js2-mode
+   `(js2-error ((t (:foreground ,orange background nil))))
+   `(js2-external-variable ((t (:foreground nil background nil))))
+   `(js2-function-call ((t (:foreground nil background nil))))
+   `(js2-function-param ((t (:foreground nil background nil))))
+   `(js2-instance-member ((t (:foreground nil background nil))))
+   `(js2-jsdoc-html-tag-delimiter ((t (:foreground nil background nil))))
+   `(js2-jsdoc-html-tag-name ((t (:foreground nil background nil))))
+   `(js2-jsdoc-tag ((t (:foreground nil background nil))))
+   `(js2-jsdoc-type ((t (:foreground nil background nil))))
+   `(js2-jsdoc-value ((t (:foreground nil background nil))))
+   `(js2-private-function-call ((t (:foreground nil background nil))))
+   `(js2-private-member ((t (:foreground nil background nil))))
+   `(js2-warning ((t (:foreground ,orange background nil))))
+
    ;; magit-next
    `(magit-bisect-bad ((t (:foreground nil :background nil))))
    `(magit-bisect-good ((t (:foreground nil :background nil))))
