@@ -81,7 +81,10 @@
    `(hi-yellow ((t (:foreground ,red :background ,nil))))
    `(isearch ((t (:foreground nil :background ,gray6))))
    `(isearch-fail ((t (:foreground nil :background ,orange))))
+   `(italic ((t (:foreground nil :background nil :underline nil))))
    `(lazy-highlight ((t (:foreground nil :background ,gray6))))
+   `(link ((t (:foreground nil :background nil :underline nil))))
+   `(link-visited ((t (:foreground nil :background nil :underline nil))))
    `(linum  ((t (:foreground ,gray5 :background ,white))))
    `(match ((t (:foreground nil :background ,gray6))))
    `(minibuffer-prompt ((t (:foreground ,red :background nil))))
@@ -91,6 +94,7 @@
    `(region ((t (:foreground nil :background ,green))))
    `(secondary-selection ((t (:foreground nil :background ,gray6))))
    `(trailing-whitespace ((t (:foreground nil :background ,red))))
+   `(underline ((t (:foreground nil :background nil :underline nil))))
 
    `(ace-jump-face-background ((t (:foreground ,gray4 :background nil))))
    `(ace-jump-face-foreground ((t (:foreground ,red :background nil))))
