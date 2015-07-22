@@ -103,6 +103,12 @@
    `(anzu-replace-highlight ((t (:foreground nil :background ,gray6))))
    `(anzu-replace-to ((t (:foreground ,red :background ,gray6))))
 
+   `(avy-lead-face-0 ((t (:foreground ,red :background nil))))
+   `(avy-lead-face-1 ((t (:foreground ,red :background nil))))
+   `(avy-lead-face-2 ((t (:foreground ,red :background nil))))
+   `(avy-lead-face ((t (:foreground ,red :background nil))))
+   `(avy-background-face ((t (:foreground ,gray4))))
+
    `(custom-face-tag ((t (:foreground nil :background nil))))
    `(custom-visibility ((t (:foreground ,blue :background nil))))
    `(custom-link ((t (:foreground ,blue :background nil))))
