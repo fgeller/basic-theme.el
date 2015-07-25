@@ -73,7 +73,16 @@
   (custom-theme-set-faces
    'basic
    `(button ((t (:foreground ,blue :underline nil :weight normal))))
-   `(compilation-mode-line-exit ((t (:foreground ,gray6 :background ,gray6))))
+   `(comint-highlight-input ((t (:foreground nil :background nil))))
+   `(comint-highlight-prompt ((t (:foreground nil :background nil))))
+   `(compilation-column-number ((t (:foreground nil :background nil))))
+   `(compilation-error ((t (:foreground nil :background nil))))
+   `(compilation-info ((t (:foreground nil :background nil))))
+   `(compilation-line-number ((t (:foreground nil :background nil))))
+   `(compilation-mode-line-exit ((t (:inherit mode-line))))
+   `(compilation-mode-line-fail ((t (:inherit mode-line))))
+   `(compilation-mode-line-run ((t (:inherit mode-line))))
+   `(compilation-warning ((t (:foreground nil :background nil))))
    `(cursor ((t (:foreground nil :background ,red))))
    `(default ((t (:foreground ,black :background ,white))))
    `(fringe ((t (:foreground ,gray6 :background ,white))))
