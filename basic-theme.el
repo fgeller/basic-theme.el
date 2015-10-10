@@ -3,7 +3,7 @@
 ;; Copyright (c) 2014-2015 Felix Geller
 
 ;; Author: Felix Geller <fgeller@gmail.com>
-;; Keywords: fingers modal editing workman
+;; Keywords: theme basic minimal colors
 ;; URL: http://github.com/fgeller/basic-theme.el
 ;; Package-Requires: ((emacs "24"))
 
