@@ -1,6 +1,6 @@
 ;;; basic-theme.el --- Minimalistic light color theme
 
-;; Copyright (c) 2014-2015 Felix Geller
+;; Copyright (c) 2014-2016 Felix Geller
 
 ;; Author: Felix Geller <fgeller@gmail.com>
 ;; Keywords: theme basic minimal colors
