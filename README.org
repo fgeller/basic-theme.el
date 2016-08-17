@@ -2,7 +2,7 @@
 
   Minimalistic light color theme for GNU Emacs.
 
-  [[http://melpa.milkbox.net:1337/#/basic-theme][file:http://melpa.milkbox.net:1337/packages/basic-theme-badge.svg]]
+  [[https://melpa.org/#/basic-theme][file:https://melpa.org/packages/basic-theme-badge.svg]]
 
 ** Screenshots
 
